@@ -69,6 +69,10 @@ async function run(){
             res.send(result);
         })
 
+        app.get('/hello', (req, res) => {
+            res.send('This is update');
+        })
+
     }finally{
 
     }
